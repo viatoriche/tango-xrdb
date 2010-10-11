@@ -6,7 +6,7 @@ Tkabber.chatRosterWidth:	    90
 
 ! Scrollbar bed color
 *troughColor:			    #3a3e3f
-*Scrollbar.width: 1 
+*Scrollbar.width: 4 
 
 *background:			    #2e3436
 *foreground:			    #babdb6
