@@ -1,12 +1,12 @@
 ! Roster width (tabbed interface only)
-Tkabber.mainRosterWidth:	    160
+Tkabber.mainRosterWidth:	    100
 
 ! Roster width in groupchat windows
 Tkabber.chatRosterWidth:	    90
 
 ! Scrollbar bed color
 *troughColor:			    #3a3e3f
-*Scrollbar.width: 4 
+*Scrollbar.width: 5 
 
 *background:			    #2e3436
 *foreground:			    #babdb6
@@ -16,21 +16,21 @@ Tkabber.chatRosterWidth:	    90
 *errorForeground:		    firebrick4
 
 ! Colors, which are used when mouse is over the item
-*activeBackground:		    #3a3e3f
+*activeBackground:		    #222222
 *activeForeground:		    #e9b96e
 
 ! Colors and border width selected item
 *selectBackground:		    #555753
 *selectForeground:		    #000000
-*selectBorderWidth:		    0
+*selectBorderWidth:		    1
 *inactiveSelectBackground:	    #626360
 
 ! Color for checkboxes
 *selectColor:			    #000000
 
 ! Color of traversal highlight rectangle
-*highlightBackground:		    #3a3e3f
-*highlightColor:		    #555753
+*highlightBackground:		    #2e3436
+*highlightColor:		    #e9b96e
 
 ! Color of insertion cursor
 *insertBackground:		    #babdb6
@@ -39,14 +39,13 @@ Tkabber.chatRosterWidth:	    90
 ! *font:				  -microsoft-verdana-medium-r-normal-*-16-*-*-*-*-*-iso10646-*
 ! *font:				  -monotype-arial-medium-r-normal-*-15-*-*-*-*-*-iso10646-*
 ! *font: "PT Sans"
-*font: "Terminus" "12"
+*font: "Terminus" "10"
 
  
 ! Currently there is only progressbar (at the splash screen)
 *ProgressBar.foreground:	    #555753
 
 ! Flatten ComboBox and ArrowButton
-*Spinbox.borderWidth:		    0
 *Spinbox.background:		    #222222
 *SpinBox.borderWidth:		    0
 *SpinBox*Entry*highlightBackground: #222222
@@ -61,11 +60,11 @@ Tkabber.chatRosterWidth:	    90
 *Mclistbox.labelForeground:	    #babdb6
 *Mclistbox.labelActiveForeground:   #619fcf
 
-*Button.background:		    #3a3e3f
+*Button.background:		    #2e3436
 *Menubutton.background:		    #3a3e3f
-*Menu.activeBackground:		    #3a3e3f
+*Menu.activeBackground:		    #222222
 *Chat*Button.background:	    #3a3e3f
-*Chat*Menubutton.background:	    #3a3e3f
+*Chat*Menubutton.background:	    #222222
 *Message*Menubutton.background:	    #3a3e3f
 *bbox.Button.background:	    #3a3e3f
 *mainframe.topf.tb0.bbox.Button.background: #3a3e3f
@@ -178,16 +177,16 @@ Tkabber.chatRosterWidth:	    90
 
 ! Colors of tab labels (when in tabbed mode)
 ! Usual color
-*alertColor0: black
+*alertColor0: #babdb6
 
 ! Color when server message is arrived
-*alertColor1: mediumpurple4
+*alertColor1: #619fcf
 
 ! Color when message is arrived
-*alertColor2: dodgerblue4
+*alertColor2: #e9b96e
 
 ! Color when personally addressed message is arrived
-*alertColor3: firebrick4
+*alertColor3: #ef1919
 
 ! Colors for browser and discovery service windows
 *JBrowser.fill:			    #3a3e3f
@@ -239,4 +238,3 @@ Tkabber.chatRosterWidth:	    90
 *ButtonBox*activeBorderWidth:	    0
 
 *Button.borderWidth:		    0
-
